@@ -57,20 +57,20 @@ var peak = new L.marker([46.852, -121.760]);
    );   
    
  //Function to smooth-scroll from navigation links
-  $(function() {
-  $('a[href*="#"]:not([href="#"])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html, body').animate({
-          scrollTop: target.offset().top
-        }, 900);
-        return false;
-      }
-    }
-  });
-});
+ // $(function() {
+ // $('a[href*="#"]:not([href="#"])').click(function() {
+ //   if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+ //     var target = $(this.hash);
+ //     target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+ //     if (target.length) {
+ //       $('html, body').animate({
+ //         scrollTop: target.offset().top
+ //       }, 900);
+ //       return false;
+ //     }
+ //   }
+ // });
+// });
 
  });
    
