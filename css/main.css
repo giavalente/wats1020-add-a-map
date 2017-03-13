@@ -2,7 +2,18 @@
    Author's custom styles
    ========================================================================== */
 
-#map-container { height: 180px; }
+/* Style Stats */
+h2#stat {
+    color: darkgreen;
+}
+
+dt, dl {
+    color: darkgreen;
+    font-size: 18px;
+}
+
+/* Set height for map */
+#map-container { height: 380px; }
 
 
 
